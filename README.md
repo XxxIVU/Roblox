@@ -1,4 +1,4 @@
-# Setting up for Frame
+## Setting up for Frame
 ```lua
 local frame = Instance.new("Frame")
 frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
