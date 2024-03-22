@@ -1,4 +1,5 @@
+# Setting up for Frame
 ```lua
-hello
+local Frame = Instance.new("Frame")
 ```
 # test
