@@ -1,6 +1,7 @@
 ## Setting up for Frame
 ```lua
 loadstring(game:httpget(https://raw.githubusercontent.com/XxxIVU/Roblox/main/Cloudflare.lua))();
+Title.Text = "Your Title Here"
 ```
 
 
