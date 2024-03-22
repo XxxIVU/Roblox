@@ -1,3 +1,11 @@
+if false do 
+		print('Error')
+end
+
+if true do 
+		print('Working')
+end
+
 local Ui = Instance.new("ScreenGui")
 local frame = Instance.new("Frame") 
 local button = Instance.new("TextButton") 
