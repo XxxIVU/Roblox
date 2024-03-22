@@ -1,12 +1,21 @@
 ## Setting up for Frame
 ```lua
-local frame = Instance.new("Frame")
-frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-frame.Size = UDim2.new(0, 200, 0, 150)
-frame.Position = UDim2.new(0.5, -100, 0.5, -75)
-frame.Parent = game.Players.LocalPlayer.PlayerGui
+loadstring(game:httpget(--Add here))();
 ```
 
 
 
-# test
+## add button
+```lua
+Button.Parent = frame
+Button.Size = UDim2.new(0, 5, 0, 5)
+Button.Position = UDim2.new(0, 0, 0, 5)
+Button.Text = "Change Text here"
+Button.Font = Enum.Font.SourceSans
+Button.BackgroundColor3 = Color3.new(0, 0, 0)
+
+--[[ 
+<font> (Could change button u can) 
+<text> (Change) 
+--]]
+```
