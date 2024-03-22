@@ -19,3 +19,14 @@ Button.BackgroundColor3 = Color3.new(0, 0, 0)
 <text> (Change) 
 --]]
 ```
+
+## add Tab + Customize
+```lua
+--This is to add
+local Tab = Instance.new("TextButton2")
+local Tab0 = Instance.new("Frame")
+```
+
+```lua
+--This to Customize
+Tab.parent = 
