@@ -7,13 +7,23 @@ if true then
 end
 
 local Ui = Instance.new("ScreenGui")
-local frame = Instance.new("Frame") 
+local frame = Instance.new("Frame")
+frame.Size = UDim2.new(0.5, 0, 0.5, 0)
+frame.Position = UDim2.new(0.25, 0, 0.25, 0)
+frame.BackgroundColor3 = Color3.fromRGB(000, 000, 000)
+frame.BorderSizePixel = 0
+
+local border = Instance.new("Frame")
+border.Size = UDim2.new(1, 0, 1, 0)
+border.Position = UDim2.new(0, -2, 0, -2)
+border.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+border.BorderSizePixel = 2
+border.Parent = frame
+
+frame.Parent = game:GetService("Workspace").CurrentCamera
+
 local Title = Instance.new("TextLabel")
 local frame2 = Instance.new("Frame")
-
-frame.Parent = Ui
-frame.Size = UDim2.new(0, 200, 0, 100)
-
 Title.Parent = frame
 Title.Size = UDim2.new(1, 0, 0, 25)
 Title.Font = Enum.Font.SourceSans
