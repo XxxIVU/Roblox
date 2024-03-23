@@ -45,15 +45,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifv
 
 Highlight (Esp) 
 ```lua
-loadstring(game:httpget(https://pastebin.com/raw/RFSQf97x))()
+loadstring(game:httpget("https://pastebin.com/raw/RFSQf97x"))()
 ```
 
 Kill script 
 ```lua
-loadstring(game:httpget(https://pastebin.com/raw/KY0TTHJT))() 
+loadstring(game:httpget("https://pastebin.com/raw/KY0TTHJT"))() 
 ```
 
 X-Ray (Tip: make mousebutton1click to mousebutton2click)
 ```lua
-loadstring(game:httpget(https://pastebin.com/raw/rUNKKPyr))()
+loadstring(game:httpget("https://pastebin.com/raw/rUNKKPyr"))()
 ```
