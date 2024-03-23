@@ -33,4 +33,27 @@ local Tab0 = Instance.new("Frame")
 ```lua
 --This to Customize
 Tab.parent = frame2 -- Do not change!
-Tab.size = 
+Tab.size = UDim2.new(0,5 0,20)
+```
+
+## Add to button mousebutton1click
+
+Keyboard
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+```
+
+Highlight (Esp) 
+```lua
+loadstring(game:httpget(https://pastebin.com/raw/RFSQf97x))()
+```
+
+Kill script 
+```lua
+loadstring(game:httpget(https://pastebin.com/raw/KY0TTHJT))() 
+```
+
+X-Ray (Tip: make mousebutton1click to mousebutton2click)
+```lua
+loadstring(game:httpget(https://pastebin.com/raw/rUNKKPyr))()
+```
