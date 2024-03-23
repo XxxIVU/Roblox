@@ -2,6 +2,7 @@
 ```lua
 loadstring(game:httpget(https://raw.githubusercontent.com/XxxIVU/Roblox/main/Cloudflare.lua))();
 Title.Text = "Your Title Here"
+frame.BackgroundColor3 = Color3.fromRGB(000, 000, 000)
 ```
 
 
