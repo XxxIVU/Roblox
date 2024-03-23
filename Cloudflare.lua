@@ -8,7 +8,7 @@ end
 
 local Ui = Instance.new("ScreenGui")
 local frame = Instance.new("Frame")
-frame.Size = UDim2.new(0.5, 0, 0.5, 0)
+frame.Size = UDim2.new(0, 25, 0, 20)
 frame.Position = UDim2.new(0.25, 0, 0.25, 0)
 frame.BackgroundColor3 = Color3.fromRGB(000, 000, 000)
 frame.BorderSizePixel = 0
