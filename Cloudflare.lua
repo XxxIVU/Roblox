@@ -8,7 +8,6 @@ end
 
 local Ui = Instance.new("ScreenGui")
 local frame = Instance.new("Frame") 
-local button = Instance.new("TextButton") 
 local Title = Instance.new("TextLabel")
 local frame2 = Instance.new("Frame")
 
