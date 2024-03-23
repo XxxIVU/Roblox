@@ -8,6 +8,7 @@ Title.Text = "Your Title Here"
 
 ## add button
 ```lua
+local button = Instance.new("TextButton")
 Button.Parent = frame
 Button.Size = UDim2.new(0, 5, 0, 5)
 Button.Position = UDim2.new(0, 0, 0, 5)
