@@ -10,19 +10,18 @@ To use this library, you can simply copy the provided code into a ModuleScript i
 
 ```lua
 -- Load the library
-local MyLibrary = require(path.to.MyLibrary)
+local MyLibrary = require("https://example.com/MyLibrary")
 
 -- Create a new instance of MyLibrary
 local myInstance = MyLibrary.new(parent)
 
 -- Example usage of the library functionalities
-myInstance:display_info()  -- Display frame information
-myInstance.sayHello()      -- Call custom function sayHello
-local result = myInstance.add(5, 3) -- Call custom function add
-print("Addition result:", result)FeaturesProvides a customizable frame with pre-defined attributes.Additional custom functionalities like sayHello and add.Examplelocal MyLibrary = require(path.to.MyLibrary)
+myInstance:display_info()
+myInstance.sayHello()
+local result = myInstance.add(5, 3)
+print("Addition result:", result)FeaturesProvides a customizable frame with pre-defined attributes.Additional custom functionalities like sayHello and add.Examplelocal MyLibrary = require("https://example.com/MyLibrary")
 
 local frameParent = -- define your parent frame here
 local myInstance = MyLibrary.new(frameParent)
 
-myInstance:display_info()ContributingFeel
-```
+myInstance:display_info()
