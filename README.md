@@ -1,59 +1,35 @@
-## Setting up for Frame
-```lua
-loadstring(game:httpget(https://raw.githubusercontent.com/XxxIVU/Roblox/main/Cloudflare.lua))();
-Title.Text = "Your Title Here"
-frame.BackgroundColor3 = Color3.fromRGB(000, 000, 000)
-```
+# My Roblox Library
 
+This is a library for Roblox that provides a customizable frame along with additional functionalities.
 
+## Installation
 
-## add button
-```lua
-local button = Instance.new("TextButton")
-Button.Parent = frame
-Button.Size = UDim2.new(0, 5, 0, 5)
-Button.Position = UDim2.new(0, 0, 0, 5)
-Button.Text = "Change Text here"
-Button.Font = Enum.Font.SourceSans
-Button.BackgroundColor3 = Color3.new(0, 0, 0)
+To use this library, you can simply copy the provided code into a ModuleScript in Roblox Studio.
 
---[[ 
-<font> (Could change button u can) 
-<text> (Change) 
---]]
-```
-
-## add Tab + Customize
-```lua
---This is to add
-local Tab = Instance.new("TextButton")
-local Tab0 = Instance.new("Frame")
-```
+## Usage
 
 ```lua
---This to Customize
-Tab.parent = frame2 -- Do not change!
-Tab.size = UDim2.new(0,5 0,20)
-```
+-- Load the library
+local MyLibrary = require(path.to.MyLibrary)
 
-## Add to button mousebutton1click
+-- Create a new instance of MyLibrary
+local myInstance = MyLibrary.new(parent)
 
-Keyboard
-```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
-```
+-- Example usage of the library functionalities
+myInstance:display_info()  -- Display frame information
+myInstance.sayHello()      -- Call custom function sayHello
+local result = myInstance.add(5, 3) -- Call custom function add
+print("Addition result:", result)FeaturesProvides a customizable frame with pre-defined attributes.Additional custom functionalities like sayHello and add.Examplelocal MyLibrary = require(path.to.MyLibrary)
 
-Highlight (Esp) 
-```lua
-loadstring(game:httpget("https://pastebin.com/raw/RFSQf97x"))()
-```
+local frameParent = -- define your parent frame here
+local myInstance = MyLibrary.new(frameParent)
 
-Kill script 
-```lua
-loadstring(game:httpget("https://pastebin.com/raw/KY0TTHJT"))() 
-```
+myInstance:display_info()ContributingFeel free to contribute to this library by submitting pull requests or reporting issues.LicenseThis project is licensed under the MIT License - see the LICENSE file for details.In this Markdown structure:
 
-X-Ray (Tip: make mousebutton1click to mousebutton2click)
-```lua
-loadstring(game:httpget("https://pastebin.com/raw/rUNKKPyr"))()
-```
+- Code blocks are enclosed with triple backticks, allowing users to easily copy the code.
+- Replace `path.to.MyLibrary` with the actual path to your `MyLibrary` module script in Roblox Studio.
+- Users can follow the instructions provided under "Installation" to use the library.
+- "Usage" section demonstrates how to use the library functionalities.
+- "Features" lists the features provided by the library.
+- "Example" section provides a quick example of how to use the library.
+- "Contributing" and "License" sections are standard for most GitHub repositories. Adjust as needed.
