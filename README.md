@@ -24,12 +24,5 @@ print("Addition result:", result)FeaturesProvides a customizable frame with pre-
 local frameParent = -- define your parent frame here
 local myInstance = MyLibrary.new(frameParent)
 
-myInstance:display_info()ContributingFeel free to contribute to this library by submitting pull requests or reporting issues.LicenseThis project is licensed under the MIT License - see the LICENSE file for details.In this Markdown structure:
-
-- Code blocks are enclosed with triple backticks, allowing users to easily copy the code.
-- Replace `path.to.MyLibrary` with the actual path to your `MyLibrary` module script in Roblox Studio.
-- Users can follow the instructions provided under "Installation" to use the library.
-- "Usage" section demonstrates how to use the library functionalities.
-- "Features" lists the features provided by the library.
-- "Example" section provides a quick example of how to use the library.
-- "Contributing" and "License" sections are standard for most GitHub repositories. Adjust as needed.
+myInstance:display_info()ContributingFeel
+```
