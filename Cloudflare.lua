@@ -10,7 +10,7 @@ local Ui = Instance.new("ScreenGui")
 local frame = Instance.new("Frame")
 frame.Size = UDim2.new(0, 25, 0, 20)
 frame.Position = UDim2.new(0.25, 0, 0.25, 0)
-frame.BackgroundColor3 = Color3.fromRGB(000, 000, 000)
+frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 frame.BorderSizePixel = 0
 
 local border = Instance.new("Frame")
@@ -23,8 +23,6 @@ border.Parent = frame
 frame.Parent = game:GetService("Workspace").CurrentCamera
 
 local Title = Instance.new("TextLabel")
-local frame2 = Instance.new("Frame")
 Title.Parent = frame
 Title.Size = UDim2.new(1, 0, 0, 25)
 Title.Font = Enum.Font.SourceSans
--- Do not change anything; does it have errors?
